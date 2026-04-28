@@ -1,0 +1,29 @@
+{
+    "name": "hb/accuweather",
+    "description": "AccuWeather API Client for PHP - Fetch current weather data easily",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "accuweather",
+        "weather",
+        "api",
+        "forecast",
+        "current weather"
+    ],
+    "authors": [
+        {
+            "name": "HB",
+            "email": "your@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hb\\AccuWeather\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
